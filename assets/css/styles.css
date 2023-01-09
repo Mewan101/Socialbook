@@ -412,9 +412,9 @@ nav{
     margin-right: 10px;
 }
 
-/*.activity-icons{
-    !*display: flex;*!
-}*/
+/*.activity-icons{*/
+/*    display: flex;*/
+/*}*/
 
 .activity-icons div{
     display: inline-flex;
@@ -436,3 +436,15 @@ nav{
 .post-row a{
     color: #9a9a9a;
 }
+
+.load-more-btn{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #9a9a9a;
+    color: #626262;
+    background: transparent;
+    border-radius: 4px;
+}
+
